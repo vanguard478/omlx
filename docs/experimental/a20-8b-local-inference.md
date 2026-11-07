@@ -7,6 +7,9 @@ Apple A20-class phone SoC should port, what needs changes, and what to leave out
 In this note, "A20" means Apple's A20 phone chip. The Allwinner A20 (dual
 Cortex-A7, up to 2 GB RAM, no Metal) cannot hold an 8B model at any quantization.
 
+For the chip architecture, Apple's SDKs, testing without an iPhone and
+developing from Linux, see the [A20 developer guide](a20-dev-guide.md).
+
 ## Constraints that drive the choices
 
 - **Memory.** An 8B model at 4.75 bits per weight is about 4.8 GB. With iOS
